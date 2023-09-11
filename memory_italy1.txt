@@ -515,4 +515,76 @@ Alessandro Magnosi... x33fcon- thread call stack spoffing
 
 
 
+..............
+
+
+
+Date 1 st Sep 2023
+
+What are the Most "OPSEC friendly" ways of laterally moving across the network 
+
+https://blog.bitsadmin.com/living-off-the-foreign-land-windows-as-offensive-platform
+
+https://www.cobaltstrike.com/blog/named-pipe-pivoting#:~:text=In%20this%20way%2C%20a%20named,especially%20useful%20for%20lateral%20movement
+
+https://www.mdsec.co.uk/2020/09/i-like-to-move-it-windows-lateral-movement-part-1-wmi-event-subscription/
+
+https://www.mdsec.co.uk/2020/09/i-like-to-move-it-windows-lateral-movement-part-2-dcom/
+
+https://www.mdsec.co.uk/2020/10/i-live-to-move-it-windows-lateral-movement-part-3-dll-hijacking/
+
+
+	Named Pipes will leverage only SMB (TCP/445) for your C2 connectivity. Average Windows sysadmin/blue teamer doesn't know that SMB can be leveraged for more than just File & Print Sharing. Therefore, it is still rare that orgs restrict machine-to-machine SMB. EDRs have started logging named pipe interactions, but most blue teamers aren't polishing their detection for it since it's a living off the land technique
+
+
+
+https://codemachine.com/index.html
+
+https://www.unknowncheats.me/forum/anti-cheat-bypass/268039-x64-return-address-spoofing-source-explanation.html
+
+https://twitter.com/namazso/status/1442314742488567808
+
+https://github.com/Kudaes/Unwinder
+
+https://mgeeky.tech/ ( A polska guy)
+
+https://github.com/mgeeky/ThreadStackSpoofer ( main )
+
+https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64/
+
+
+
+Date: 06 th Sep 2023
+
+
+https://www.bsigroup.com/en-GB/our-services/digital-trust/cybersecurity-information-resilience/About/Careers/
+
+
+
+
+............
+
+
+https://learn.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-query-language?view=o365-worldwide
+
+
+https://learn.microsoft.com/en-us/training/modules/m365-security-threat-protect/introduction
+
+
+
+-----------------------
+
+Date : Sep 11 th 2023
+
+https://github.com/CyberSecurityUP/Red-Team-Management/tree/main
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master
+
+
+
+
+
+
+
+
 
